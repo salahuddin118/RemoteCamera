@@ -42,11 +42,13 @@ public:
 	virtual void OnTimerExpired(Tizen::Base::Runtime::Timer& timer);
 
 	void StartRemoteCamera(void);
+	void CaptureRemoteCamera(void);
 	void StopRemoteCamera(void);
 
 protected:
-	static const int ID_BUTTON = 101;
+	static const int ID_BUTTON1 = 101;
 	static const int ID_BUTTON2 = 102;
+	static const int ID_BUTTON3 = 103;
 
 private:
 	double __percent;

@@ -34,7 +34,8 @@ static const int MARGIN = 10;
 static const int COUNT3 = 3;
 
 static const wchar_t* BUTTON1_NAME = L"Start";
-static const wchar_t* BUTTON2_NAME = L"Stop";
+static const wchar_t* BUTTON2_NAME = L"Capture";
+static const wchar_t* BUTTON3_NAME = L"Stop";
 
 static const wchar_t* PICTURE1 = L"sample1.png";
 static const wchar_t* PICTURE2 = L"sample2.png";
@@ -106,15 +107,20 @@ RemoteCameraForm::OnInitializing(void)
 		pFooter->SetStyle(FOOTER_STYLE_BUTTON_TEXT);
 		this->SetFormBackEventListener(this);
 
-		FooterItem footerItemRecognize;
-		footerItemRecognize.Construct(ID_BUTTON);
-		footerItemRecognize.SetText(BUTTON1_NAME);
-		pFooter->AddItem(footerItemRecognize);
+		FooterItem footerItemStart;
+		footerItemStart.Construct(ID_BUTTON1);
+		footerItemStart.SetText(BUTTON1_NAME);
+		pFooter->AddItem(footerItemStart);
 
-		FooterItem footerItemSimilarity;
-		footerItemSimilarity.Construct(ID_BUTTON2);
-		footerItemSimilarity.SetText(BUTTON2_NAME);
-		pFooter->AddItem(footerItemSimilarity);
+		FooterItem footerItemCapture;
+		footerItemCapture.Construct(ID_BUTTON2);
+		footerItemCapture.SetText(BUTTON2_NAME);
+		pFooter->AddItem(footerItemCapture);
+
+		FooterItem footerItemStop;
+		footerItemStop.Construct(ID_BUTTON3);
+		footerItemStop.SetText(BUTTON3_NAME);
+		pFooter->AddItem(footerItemStop);
 
 		pFooter->AddActionEventListener(*this);
 	}
@@ -234,7 +240,7 @@ RemoteCameraForm::OnActionPerformed(const Tizen::Ui::Control& source, int action
 	result r = E_SUCCESS;
 	switch (actionId)
 	{
-	case ID_BUTTON:
+	case ID_BUTTON1:
 		if (__pPanel != null)
 		{
 			this->RemoveControl(__pPanel);
@@ -250,6 +256,10 @@ RemoteCameraForm::OnActionPerformed(const Tizen::Ui::Control& source, int action
 		break;
 
 	case ID_BUTTON2:
+		CaptureRemoteCamera();
+		break;
+
+	case ID_BUTTON3:
 		if (__pPanel != null)
 		{
 			this->RemoveControl(__pPanel);
@@ -529,21 +539,24 @@ RemoteCameraForm::StartRemoteCamera()
 }
 
 void
-RemoteCameraForm::StopRemoteCamera()
+RemoteCameraForm::CaptureRemoteCamera()
 {
 	result r = E_SUCCESS;
 	Image img;
 
 	img.Construct();
-
-	__stat = TIMER_STOP;
 	r = img.EncodeToFile(*__pPicture->GetBitmap(), IMG_FORMAT_JPG, dstPath, true);
 	if (IsFailed(r))
 	{
 		AppLog("Image save failed.\n");
 		return;
 	}
+}
 
+void
+RemoteCameraForm::StopRemoteCamera()
+{
+	__stat = TIMER_STOP;
 	return;
 }
 
