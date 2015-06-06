@@ -44,11 +44,11 @@
 </Reference>
 <Reference URI="bin/RemoteCamera.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7it3BFBxAKNFaQnSKmL8pULG8UHJzcsqacmKVM1xDFY=</DigestValue>
+<DigestValue>IXkiqd58PO38mnYe/EpiNLmSLqdBz5gMm8aBqJwWdDc=</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>nRm8nPtiDVuz9aNho51UYrGUEq6xJuDTO2Gwc5g8Qao=</DigestValue>
+<DigestValue>8alMJF6CDyhc9tf1G2KI4D+8uMv8IlhTYndoSBs5Zjo=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -59,9 +59,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-IgnuAtVAfwRQ6D/6LZq5fLHHNReYOHdsxNzzPhBDMIPwi6eegcN7Cw/M0fzCSyudeqwH0EWgtVJH
-0JS8TDSgmHmH9kKsAFlZ67Aa7SvPSzu+vYbv9BepAt4920khRPNQ/WfiNlXacXxrSn8z+OE3Drkq
-WLZ45JglPIiPs8RVSk8=
+cBaoJJhU/szcDV8tVKCFiShL86bHtvjkIWZRYstWu6kOamiG2lxSMR9M7VSB2axWADmnfp9eJf6b
+txPh/+s20PMTe1LbtPJb4c3Zwuxzv6urcirrgwwjsnjIJN08gURXycdcweUUD7n6jkcqGVfxz1ww
+XA1g94bjiq/5TGZesKE=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

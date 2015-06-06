@@ -8,21 +8,24 @@ CPP_SRCS += \
 ../src/InfoCompare.cpp \
 ../src/RemoteCamera.cpp \
 ../src/RemoteCameraEntry.cpp \
-../src/RemoteCameraForm.cpp 
+../src/RemoteCameraForm.cpp \
+../src/TizenRemoteCamera.cpp 
 
 OBJS += \
 ./src/Info.o \
 ./src/InfoCompare.o \
 ./src/RemoteCamera.o \
 ./src/RemoteCameraEntry.o \
-./src/RemoteCameraForm.o 
+./src/RemoteCameraForm.o \
+./src/TizenRemoteCamera.o 
 
 CPP_DEPS += \
 ./src/Info.d \
 ./src/InfoCompare.d \
 ./src/RemoteCamera.d \
 ./src/RemoteCameraEntry.d \
-./src/RemoteCameraForm.d 
+./src/RemoteCameraForm.d \
+./src/TizenRemoteCamera.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

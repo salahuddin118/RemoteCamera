@@ -44,7 +44,7 @@
 </Reference>
 <Reference URI="bin/RemoteCamera.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7it3BFBxAKNFaQnSKmL8pULG8UHJzcsqacmKVM1xDFY=</DigestValue>
+<DigestValue>IXkiqd58PO38mnYe/EpiNLmSLqdBz5gMm8aBqJwWdDc=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -55,9 +55,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-HJ0ppJQus7mwxseMOTVkdBj26m+dRnUWxfeEUnIw91ZIumra+r6bEhYeoWg4VaylDPTcg5SHTS0H
-btDMxMYRB6a6zsOnLcOawP+HDI97xorOKUdhnYjBBRYMmSj5DpklsiWdi/BE5qiWcHAazH1i0A7h
-uyak3wyBU/rePWvHss0=
+TBkrqGcTXVYw5mD/6ts8+/JNAKYsu+uxwb09e0pjK/wITutMM62EoEnzWAZz00Km0NyzOTwZhRST
+l2+M+ZetMKu3qIIdnB/nif8/NwVz0G7zZ70eMM/j0HTUzJaIsCRaUiL9s7vy02blIeO37aTKmAxd
+G0COBcrArgsgzJ+gWD0=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
