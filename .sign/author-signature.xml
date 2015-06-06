@@ -6,26 +6,6 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>HybJrx/UqW8PtrEo7V6dFvLJxLaHikYDTYrPS3wOmWg=</DigestValue>
 </Reference>
-<Reference URI="res/screen-density-xhigh/tizen.png">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>6wZiqqBjbonyZnJQP6o1ZkZ9K7q0bwa/NbIMX1yvvxM=</DigestValue>
-</Reference>
-<Reference URI="shared/res/screen-density-xhigh/camera.png">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>5SIi2AsR0gof2PxZHIzplSZql19flwk1ihxZ3pxTfsc=</DigestValue>
-</Reference>
-<Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
-</Reference>
-<Reference URI="shared/res/screen-density-xhigh/remotecamera.png">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>irQsmHBRCtR3u6RDONabjKqQ36uI5m/4vjoYNka2QTc=</DigestValue>
-</Reference>
-<Reference URI="shared/res/screen-density-xhigh/Thumbs.db">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>hLi9K1iBhTrgtBXhLP4Yz8ecXb7WAJdiOeGT0B188gY=</DigestValue>
-</Reference>
 <Reference URI="res/sample1.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>9u3kmHC9Aw2Urqh7pYhmGjBhIU5ckkKvbZq8BMuoVms=</DigestValue>
@@ -42,9 +22,29 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>9ijJzq7o0JyzGdAbvSLyfLNEesdKFd1oAVSKeUlJzLQ=</DigestValue>
 </Reference>
+<Reference URI="res/screen-density-xhigh/tizen.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6wZiqqBjbonyZnJQP6o1ZkZ9K7q0bwa/NbIMX1yvvxM=</DigestValue>
+</Reference>
+<Reference URI="shared/res/screen-density-xhigh/Thumbs.db">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>hLi9K1iBhTrgtBXhLP4Yz8ecXb7WAJdiOeGT0B188gY=</DigestValue>
+</Reference>
+<Reference URI="shared/res/screen-density-xhigh/camera.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>5SIi2AsR0gof2PxZHIzplSZql19flwk1ihxZ3pxTfsc=</DigestValue>
+</Reference>
+<Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
+</Reference>
+<Reference URI="shared/res/screen-density-xhigh/remotecamera.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>irQsmHBRCtR3u6RDONabjKqQ36uI5m/4vjoYNka2QTc=</DigestValue>
+</Reference>
 <Reference URI="bin/RemoteCamera.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>8RVFZr3fap3vztoUIzw/oBQ5MI0uFoXLzuRtWcQwFPA=</DigestValue>
+<DigestValue>7it3BFBxAKNFaQnSKmL8pULG8UHJzcsqacmKVM1xDFY=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -55,25 +55,25 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Vn5pSkBthgoGoQmiDQkAGcx777wzXXUOyYfQJusKqLoV1J03WWr68waoKfyhNUl033PNinEMwJEO
-z7jcCwG+cvShsFNXDyWZfMZjMjA48HyP/s+Dj9EPY/r0o/1xGQY4CGFR8qmnIGzIKcGr/znE9imb
-7FYGtH4cHHO4ffmPu7o=
+HJ0ppJQus7mwxseMOTVkdBj26m+dRnUWxfeEUnIw91ZIumra+r6bEhYeoWg4VaylDPTcg5SHTS0H
+btDMxMYRB6a6zsOnLcOawP+HDI97xorOKUdhnYjBBRYMmSj5DpklsiWdi/BE5qiWcHAazH1i0A7h
+uyak3wyBU/rePWvHss0=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
 <X509Certificate>
-MIIClTCCAX2gAwIBAgIGAU2O3n1SMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
+MIIClTCCAX2gAwIBAgIGAU2VQV5bMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
 c29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4gRGV2
 ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMBExDzANBgNVBAMMBmF1
-dGhvcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAip4GiSrRLFWiOUYKCBK/rf0vuD0/AGsS
-kNtgH0mTZnLbFHTfS9LtlpZ0LzUZpWip/1kN5xg6mbGHYzP/4zoeHNVxFW1TJjO2MbwvlRuJd2g3
-hZ6g2tu3MfP2/5T4ic0RB/lfl1Y/Mtl/xEw6f8nsAGYHrPxtVZc0VCFJpAMb5ZUCAwEAAaMyMDAw
+dGhvcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAjUF3pSbbrjiYpYtJ1Rg+ggOSxbIGZzkr
+mAzurumREKIxaS6hwPHuWo6tyzSvbc/a0PIEG7uppvX4BqfS4mIbaqKQF8eiwuHDxXd6xLCuhR80
+WwjmCATfMkQutkhDkqL9ZonIg/GOLuI/60ysLNOpl3OPk+37i2+dsBESRmgQXHsCAwEAAaMyMDAw
 DAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcN
-AQEFBQADggEBAHPlIn3QU96Ow/2eR+dkeEgYkI0uerev7m1BumBfkyjksC6obQAWRGnmmlEy55sB
-ICihjXoRmKZdfA5jt3HF6c9SNL9JN1OEd8eC+qFhR0Qrdj+5oLpwaxZ07l2cXYdkCjH+b5a6qUJh
-cwOV9fZPfP5xetNAsz0WwXkpW2f0dxiYyAejjrkvhvfVb0nozqN0F9qiIEuFIWtvyJzEUseBIQLG
-Yn9YQMLDmuym7xLG+oAo5ErY1fcQin4jYLeTuxiNvL4Zh61q2iU9pj02H53Ww2DLF+nGH+JeVmqs
-0aej3pZIHKSiGeRb6y7hHgsxkhwuwDq37syPmoQpwkYsTJalV0A=
+AQEFBQADggEBAM7sAHE/0youRsfTKq85hB4gBOYFHiWBxxsL6EzTZyWNFHA4AYh9J5mmhWF7htcG
+8h65vuSVc1ikPJSBUOA5ep9XBVCmxsGNpGaT1L1EjSBOWMC5x7pzDJQS3lfYKep0hsBULMWqYW3N
+TX6OaIqwBbgKRsAODpodUp4YqyyNn5ZRepVbxPDsXQ6w5TJwvOykk3qDfDie/r8dy8DT1hIOtOPW
+CseJA9SEH+P3rqcy8YFgRThKj3fZLznQtKSDfJAApphDgDX3WGbnFWeGuEMKeXK+PeWii2gj1FVa
+XpPMjz2v414pvaSSNCba/fodSgXetxyVm+oAJzBTQgBHYFperfE=
 </X509Certificate>
 <X509Certificate>
 MIIDOTCCAiGgAwIBAgIBATANBgkqhkiG9w0BAQUFADBYMRowGAYDVQQKDBFUaXplbiBBc3NvY2lh

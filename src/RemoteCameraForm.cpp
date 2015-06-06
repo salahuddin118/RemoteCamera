@@ -55,7 +55,9 @@ static const wchar_t* PICTURE4_NAME = L"Tom";
 static const wchar_t* NO_PICTURE = L"No Picture";
 static const wchar_t* NOT_FOUND = L"Not Found";
 
-static const int INTERVAL = 10;
+
+static const int FPS = 30;
+static const int INTERVAL = 1000/FPS;
 static const int TIMER_START = 200;
 static const int TIMER_STOP = 202;
 
@@ -511,7 +513,6 @@ RemoteCameraForm::SetTimer(void)
 	AppLog("Timer: OnTimerExpired: %d", __count++);
 	return;
 }
-
 
 void
 RemoteCameraForm::OnTimerExpired(Timer& timer)
