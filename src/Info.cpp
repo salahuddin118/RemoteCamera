@@ -108,6 +108,12 @@ Info::GetBitmap(void) const
 	return __pBitmap;
 }
 
+void
+Info::SetBitmap(Bitmap* _pBit)
+{
+	__pBitmap = _pBit;
+}
+
 const ByteBuffer*
 Info::GetByteBuffer(void) const
 {

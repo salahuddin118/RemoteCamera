@@ -4,27 +4,31 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="bin/RemoteCamera.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>4ZUH909U+Knu8YgVhTtwxqDg0epVrYDwmuJ2ANR0M58=</DigestValue>
+<DigestValue>QNlH80C/YXGLsmpLj7zYgRT/lu2gS/aufeJVVBWCb3c=</DigestValue>
 </Reference>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>HybJrx/UqW8PtrEo7V6dFvLJxLaHikYDTYrPS3wOmWg=</DigestValue>
 </Reference>
+<Reference URI="res/1433755762058.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DQm9b0G7iku6DTbArOZyk83k0NatO1WR7QWg0HuI0lI=</DigestValue>
+</Reference>
 <Reference URI="res/sample1.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>niUfE6iV1BntXvoa9buWWYcTmsCSL1JlQUDLpBaHYto=</DigestValue>
+<DigestValue>9u3kmHC9Aw2Urqh7pYhmGjBhIU5ckkKvbZq8BMuoVms=</DigestValue>
 </Reference>
 <Reference URI="res/sample2.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>1rIvVet7GmCQyFvqS8FsPBEkw0DcsmgZtJdPlOPIMYc=</DigestValue>
+<DigestValue>zkXZKPzuS66QF4ExCh2GxayaRi4j6Qm7DPSu15S1VZQ=</DigestValue>
 </Reference>
 <Reference URI="res/sample3.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>0FvCeDaezihys3tqTpOZbVGI4QH4Sdw0h635vNpJlJs=</DigestValue>
+<DigestValue>Jv4NnMfXBcECQS2VmW7v3JXfbL2tGuQegXefBHvig7M=</DigestValue>
 </Reference>
 <Reference URI="res/sample4.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>GYcdTdqJwtuXEp9lkt1LR4LbMGkmDSVnoiPfhlJMJPw=</DigestValue>
+<DigestValue>9ijJzq7o0JyzGdAbvSLyfLNEesdKFd1oAVSKeUlJzLQ=</DigestValue>
 </Reference>
 <Reference URI="res/screen-density-xhigh/tizen.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -32,7 +36,7 @@
 </Reference>
 <Reference URI="shared/res/screen-density-xhigh/camera.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>5SIi2AsR0gof2PxZHIzplSZql19flwk1ihxZ3pxTfsc=</DigestValue>
+<DigestValue>L+KHXR8tTNXSSegn4J5IeQRMeqKupgULVZKMIBc+vrA=</DigestValue>
 </Reference>
 <Reference URI="shared/res/screen-density-xhigh/mainmenu.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -55,9 +59,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-YSUSVyelscXjdlvmJGdfN2tBLRfVLWE4QA5qHVJXBrn40nHpWhpZDYddPN4e6mq49uMo2tYRyBj+
-2v5m0HlDQ9c3GzVYG4mIkOr2r1OAj0ZDPkMywBYTNvPx/DBt9S+s85axNQZNwkFJtOVqUR/WpFsZ
-/gyEiTGbCZe3zls4w8M=
+WgKuIEVujT8qECH83kc1XaLmuo1lr6O8wsDvjhuTrsFcz8DMMdwWfCf9CJF3zVzW3vlxv5MSRm13
+ZwORDvkKWxfFmc+Dr04mJabF/rkOGHGfN41awSosX1la9uDrq3AHTB6DzdtE/sN6ko8bOBnct3Es
+ExlRsCVAPZYhZprSo1U=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

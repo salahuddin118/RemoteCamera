@@ -27,6 +27,7 @@ public:
 		void Initialize(void);
 		const Tizen::Graphics::Bitmap* GetBitmap(void) const;
 		Tizen::Base::ByteBuffer* LoadImageN(Tizen::Base::String FileName, int& nWidth, int& nHeight);
+		Tizen::Base::ByteBuffer* LoadImageNRaw(Tizen::Base::String FileName, int& nWidth, int& nHeight);
 
 		void GetRemoteImage(void);
 		virtual void OnTimerExpired(Tizen::Base::Runtime::Timer& timer);

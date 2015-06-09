@@ -37,6 +37,7 @@ public:
 	Tizen::Base::String GetFileName(void) const;
 	Tizen::Base::String GetInfo(void) const;
 	const Tizen::Graphics::Bitmap* GetBitmap(void) const;
+	void SetBitmap(Tizen::Graphics::Bitmap* test);
 	const Tizen::Base::ByteBuffer* GetByteBuffer(void) const;
 	int GetWidth(void) const;
 	int GetHeight(void) const;
