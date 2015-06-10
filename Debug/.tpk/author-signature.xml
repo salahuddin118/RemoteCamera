@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="bin/RemoteCamera.exe">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>QNlH80C/YXGLsmpLj7zYgRT/lu2gS/aufeJVVBWCb3c=</DigestValue>
+<DigestValue>NNLgHQdVTihFBGXHq4uVDjNmIXw/0Tm2KY4h3Hz4aNY=</DigestValue>
 </Reference>
 <Reference URI="info/manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -13,6 +13,10 @@
 <Reference URI="res/1433755762058.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>DQm9b0G7iku6DTbArOZyk83k0NatO1WR7QWg0HuI0lI=</DigestValue>
+</Reference>
+<Reference URI="res/1433761221619.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>n+hSt35NnhoaqLH9+CrXcGEi7vRf4PErhYnEFgfL3HU=</DigestValue>
 </Reference>
 <Reference URI="res/sample1.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -33,6 +37,10 @@
 <Reference URI="res/screen-density-xhigh/tizen.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>6wZiqqBjbonyZnJQP6o1ZkZ9K7q0bwa/NbIMX1yvvxM=</DigestValue>
+</Reference>
+<Reference URI="res/_1433829041898.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>8uemEpW1JIejraF05P+kiv60eA05aIBKE7KeHkvwWSI=</DigestValue>
 </Reference>
 <Reference URI="shared/res/screen-density-xhigh/camera.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -59,9 +67,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-WgKuIEVujT8qECH83kc1XaLmuo1lr6O8wsDvjhuTrsFcz8DMMdwWfCf9CJF3zVzW3vlxv5MSRm13
-ZwORDvkKWxfFmc+Dr04mJabF/rkOGHGfN41awSosX1la9uDrq3AHTB6DzdtE/sN6ko8bOBnct3Es
-ExlRsCVAPZYhZprSo1U=
+e8PlFp9iNYOnWt7+0URj/fqg0IcudHXdi1hjFkeFmVFtAnrh9WbvIcmbLwtkA/qNEXyEiBGbgMn2
+4oJV671HQfkWldTymZKyOV3GarfdRb7hbVnf0ypBgB3NaCmgl2MlqkYHaSEHukcLqrd9zWiE4k6W
+jZ0UH6Rro3P675sOpyQ=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

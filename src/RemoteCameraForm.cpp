@@ -121,7 +121,8 @@ RemoteCameraForm::OnDraw(void)
 	__pCanvas = GetCanvasN();
 	__pCanvas->Clear();
 
-	r = DrawImage(__pTizenRemoteCamera->GetBitmap());
+	if(__pTizenRemoteCamera->GetBitmap() != null)
+		r = DrawImage(__pTizenRemoteCamera->GetBitmap());
 
 	return r;
 }

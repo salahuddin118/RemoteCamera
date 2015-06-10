@@ -28,8 +28,10 @@ public:
 		const Tizen::Graphics::Bitmap* GetBitmap(void) const;
 		Tizen::Base::ByteBuffer* LoadImageN(Tizen::Base::String FileName, int& nWidth, int& nHeight);
 		Tizen::Base::ByteBuffer* LoadImageNRaw(Tizen::Base::String FileName, int& nWidth, int& nHeight);
+		Tizen::Base::ByteBuffer* LoadImageNPNG(Tizen::Base::String FileName, int& nWidth, int& nHeight);
 
 		void GetRemoteImage(void);
+		void GetRemoteImageN(void);
 		virtual void OnTimerExpired(Tizen::Base::Runtime::Timer& timer);
 
 		void StartRemoteCamera(void);
@@ -37,8 +39,7 @@ public:
 		void StopRemoteCamera(void);
 
 private:
-		double __percent;
-		int __panelY;
+		int __imageCount;
 		int __stat;
 		int __count;
 
